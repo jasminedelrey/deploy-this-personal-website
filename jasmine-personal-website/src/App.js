@@ -1,5 +1,6 @@
 import profile from './jasminepic.jpg';
 import './App.css';
+import Button from './Button';
 
 function App() {
   return (
@@ -15,14 +16,7 @@ function App() {
         software development. In my free time, I like to take long walks on the beach and watch sunsets. I am a budding boba connoisseur and 
         a human bean figuring out her 20s in the most fearless way she can. </p>
         <p>Let's be friends!</p>
-        <a
-          className="App-link"
-          href="https://drive.google.com/file/d/1DxNef13MBBiaPX1cc33wm12lMZU9AJc8/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Stalk my work experience here
-        </a>
+        <Button pink={true}></Button>
         </div>
         </span>
       </header>
